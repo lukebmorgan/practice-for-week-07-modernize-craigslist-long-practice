@@ -31,3 +31,60 @@ p.more {
 }
 
 /* Your code here */
+* {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  color: #464646;
+}
+a:link { text-decoration: none; }
+
+
+a:visited {
+  text-decoration: none;
+  color: #800080
+}
+
+
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #800080
+}
+
+
+a:active { text-decoration: none; }
+
+ul > li {
+  list-style-type: none;
+}
+a > span:hover {
+  font-weight: bold;
+  color: #800080
+}
+.page-container {
+  max-width: 1200px;
+
+}
+#leftbar, #center, #rightbar {
+  float: left;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+footer {
+  clear: both;
+}
+#leftbar, #rightbar {
+  width: 25%;
+}
+#center {
+  width: 50%;
+  border: 1px, solid, #464646;
+  border-radius: 10px;
+}
+#center > div {
+  float: left;
+  width: 33%
+}
